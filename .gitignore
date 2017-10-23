@@ -1,0 +1,8 @@
+# ipython notebook checkpoints
+.ipynb_checkpoints
+
+# compiled python
+*.pyc
+
+# data setc
+*.csv
