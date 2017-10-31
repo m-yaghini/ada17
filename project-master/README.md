@@ -23,18 +23,19 @@ We would like to combine and enrich this dataset with other data sets provided t
 - The Spinn3r Dataset
 - Swiss Open Data sets, and in particular, the "Historical Dictionary of Switzerland" that contains a list of important themes, geography, families and biographies in Switzerland at http://www.hls-dhs-dss.ch/opendata/
 
-**A list of internal milestones up until project milestone 2**
+## A list of internal milestones up until project milestone 2
 - **Get familiar with the data** via an exploratory data analysis, discover its strengths and limits : find out what questions we can *actually* answer using the data given to us. Also find the dominant features. 
 - **Data Collection and Processing** since the data is also hosted on the ADA cluster, check whether we can avoid queries and work directly on the whole data set using *Spark*.
 - **Data Correction and/or Augmentation** Find out what are we missing in the data and how we can fill the missing values. Do we need to augment our datasets using Spinn3r and Wikidata among others?
 - **Rankings** Find if any TV ratings data is available, and find out if and how it can be integrated in the analyses.
 
-Short term goals:
+### Short term goals:
 - Find a way to guess the gender of presenters.
 - Fill missing themes from title, person, media type, etc...
 - Divide and distribute the tasks among team members. 
 
-## Questions for TAs* - Since Spinn3r is a commercial dataset, how can we gain access to it ?
+## Questions for TAs
+- Since Spinn3r is a commercial dataset, how can we gain access to it ?
 - In general how can we gain access to the datasets that are hosted on the ADA cluster? 
 - What do you think about our problem statement ? Do you think its too broad or too narrow? Do you think we can make a good data story out of our analysis? 
 - We proposed a long list of questions. At the same time, we are aware of the page (and time) limit. Is there any question that you find infeasible to answer? 
