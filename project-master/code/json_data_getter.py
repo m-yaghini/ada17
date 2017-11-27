@@ -1,6 +1,7 @@
 import os
 import json
 from glob import glob
+import progressbar
 
 # path to the datasets
 BASE_PATH ='../dataset'
@@ -15,13 +16,15 @@ def collect_json(path):
     
     documents = []
     
-    for sub in subfolder_list:
-        pattern = os.path.join(sub, '*.json')
-        for file_name in glob(pattern):
-            with open(file_name) as json_data:
-                temp_data = json.load(json_data)
-                temp_doc = temp_data['response']['docs']
-                documents += temp_doc
+    with progressbar.ProgressBar(max_value=len(subfolder_list)) as bar:        
+        for i,sub in enumerate(subfolder_list):
+            pattern = os.path.join(sub, '*.json')
+            for file_name in glob(pattern):
+                with open(file_name) as json_data:
+                    temp_data = json.load(json_data)
+                    temp_doc = temp_data['response']['docs']
+                    documents += temp_doc
+            bar.update(i)
 
     return documents
 
