@@ -19,5 +19,6 @@ The dataset is accessible by [queries](https://api.srgssr.ch/rts-archives-public
 ## A list of internal milestones up until project milestone 3
 - better visualization for maps, adding timesliders 
 - clustering of themes and genres 
-- answering questions
-- completing 
+- finish answering questions
+- create the blog for the datastory
+- find a suitable visualization for question 1 and 2
