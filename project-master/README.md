@@ -1,4 +1,4 @@
-# . [UPDATED](%20)“The TV Mirror”: Evolution of Swiss Radio/TV Broadcasts in The Course of The 20th Century
+# [UPDATED](%20)“The TV Mirror”: Evolution of Swiss Radio/TV Broadcasts in The Course of The 20th Century
 
 ## Abstract
 The popular media is an (imperfect) mirror of the society. In this project, we want to study the effect of social trends and events of the 20th century on TV/Radio broadcasts. The 20th century saw the invention and ubiquity of the broadcast media: first radio and then television. Having access to a wealth of information about TV/Radio emissions all the way from 1930's until today, we believe we can track these events and gain unique insights into the evolution of Swiss society. To this end, we are going to mainly use the RTS dataset. However, to complement our analyses, we will potentially make use of Spinn3r, different Swiss Open datasets, and Wikimedia data as well.
