@@ -17,3 +17,7 @@ After Milestone1 and after getting our hands dirty with the dataset, we realizse
 The dataset is accessible by [queries](https://api.srgssr.ch/rts-archives-public-api/apis/get/archives) in the JSON format, it is also continuously updated. All entries seem to be formatted the same way, in general we get the basic information (title, source, genre, presenter, duration, media type, publication date, etc...) and sometimes we can get other information such as the theme or a full list of related persons. Metadata about all RTS TV and Radio Broadcasts from 1935 until now. The dataset includes [more than 350'000 shows](https://opendata.swiss/en/dataset/rts-tv-and-radio-broadcasts) and covers all RTS audio and video channels : RTS 1, RTS 2, La Première, Espace 2, Couleur 3, … Data comes from three distinct systems: RTS Website CMS, TV Archives System and Radio Archives System.
 
 ## A list of internal milestones up until project milestone 3
+- better visualization for maps, adding timesliders 
+- clustering of themes and genres 
+- answering questions
+- completing 
