@@ -21,4 +21,4 @@ The dataset is accessible by [queries](https://api.srgssr.ch/rts-archives-public
 - clustering of themes and genres 
 - finish answering questions
 - create the blog for the datastory
-- find a suitable visualization for question 1 and 2
+- find a suitable visualization for question 1 and 2 (maybe a wordcloud ?)
