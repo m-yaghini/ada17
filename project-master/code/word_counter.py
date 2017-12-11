@@ -22,6 +22,9 @@ class word_counter:
             'visualGeographicals', 'visualPersons', 'visualThemes'
         ].agg(lambda x: ', '.join(x))
 
+    def get_df(self):
+        return self.counters_program_period
+
     def get_themes(self, fr, to, theme_type, program=-1, n_top=3):
         rows_selection = ((self.counters_program_period.index.get_level_values('publicationDate') >= fr) &
         (self.counters_program_period.index.get_level_values('publicationDate') <= to))
