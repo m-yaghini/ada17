@@ -29,3 +29,9 @@ Leonardo
 - Compute term occurences per year
 - Wordcloud visualization of the term occurences per year
 - Setup and manage jekyll blog
+
+Sina
+- Inital Investigation and project proposal
+- Obtaining genders of all names in dataset using external JSON service
+- Analysis and presentation on gender inequalities
+- Analysis and presentation on major social phenomenas
