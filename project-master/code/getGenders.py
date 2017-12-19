@@ -1,3 +1,9 @@
+# This script will look for all firstnames in RTS dataset (based on contributors column)
+# And create a dictionary of those first names and their corresponding gender.
+# It achieves this by calling an external JSON service that sends the gender for a given 
+# first name.
+
+
 import requests,json,csv
 import pandas as pd
 from json_data_getter import get_all_json
