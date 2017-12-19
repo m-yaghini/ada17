@@ -22,3 +22,9 @@ The dataset is accessible by [queries](https://api.srgssr.ch/rts-archives-public
 - finish answering questions
 - create the blog for the datastory
 - find a suitable visualization for question 1 and 2 (maybe a wordcloud ?)
+
+## Group member contribution
+Leonardo
+- Data collection and preparation
+- Wordcloud visualization
+- Setup jekyll blog
