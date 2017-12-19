@@ -26,5 +26,6 @@ The dataset is accessible by [queries](https://api.srgssr.ch/rts-archives-public
 ## Group member contribution
 Leonardo
 - Data collection and preparation
-- Wordcloud visualization
-- Setup jekyll blog
+- Compute term occurences per year
+- Wordcloud visualization of the term occurences per year
+- Setup and manage jekyll blog
